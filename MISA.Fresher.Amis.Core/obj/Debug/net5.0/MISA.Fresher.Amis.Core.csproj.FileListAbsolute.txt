@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\MISA.Fresher.Amis.Core.deps.json
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\MISA.Fresher.Amis.Core.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\ref\MISA.Fresher.Amis.Core.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\MISA.Fresher.Amis.Core.pdb
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\ref\MISA.Fresher.Amis.Core.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.pdb
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.Properties.Resources.resources
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.Properties.ENResource.resources

@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.deps.json
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\bin\Debug\net5.0\ref\MISA.Fresher.Amis.Infrastructure.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.pdb
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Amis.Core.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\bin\Debug\net5.0\MISA.Fresher.Amis.Core.pdb
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.csproj.CopyComplete
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\ref\MISA.Fresher.Amis.Infrastructure.dll
+C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Infrastructure\obj\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.pdb

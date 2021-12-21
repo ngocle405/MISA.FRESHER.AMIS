@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Infrastructure\\MISA.Fresher.Amis.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Core\\MISA.Fresher.Amis.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Core\\MISA.Fresher.Amis.Core.csproj",
+        "projectName": "MISA.Fresher.Amis.Core",
+        "projectPath": "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Core\\MISA.Fresher.Amis.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Infrastructure\\MISA.Fresher.Amis.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Infrastructure\\MISA.Fresher.Amis.Infrastructure.csproj",
+        "projectName": "MISA.Fresher.Amis.Infrastructure",
+        "projectPath": "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Infrastructure\\MISA.Fresher.Amis.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Core\\MISA.Fresher.Amis.Core.csproj": {
+                "projectPath": "D:\\ASP.NET Core WEB API\\MISA.Fresher.Amis\\MISA.Fresher.Amis.Core\\MISA.Fresher.Amis.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
