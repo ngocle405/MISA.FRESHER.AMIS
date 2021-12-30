@@ -42,4 +42,29 @@ namespace MISA.Fresher.Amis.Core.MisaAttribute
             this.Length = length;
         }
     }
+
+    /// <summary>
+    /// Attribute kiểm tra độ dài của chuỗi
+    /// </summary>
+    /// CreatedBy: Lê thanh ngọc(21/12/2021)
+    [AttributeUsage(AttributeTargets.Property)]
+    public class CheckDate : Attribute
+    {
+    }
+
+    /// <summary>
+    /// Attribute check trùng cho property
+    /// </summary>
+    /// <summary>
+    /// CreatedBy: Lê thanh ngọc(21/12/2021)
+    [AttributeUsage(AttributeTargets.Property)]
+    public class CheckDuplicate : Attribute
+    {
+
+    }
+    [AttributeUsage(AttributeTargets.Property)]
+    public class PrimaryKey : Attribute
+    {
+    }
+
 }

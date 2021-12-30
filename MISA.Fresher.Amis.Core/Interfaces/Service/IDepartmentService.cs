@@ -9,6 +9,13 @@ namespace MISA.Fresher.Amis.Core.Interfaces.Service
 {
     public interface IDepartmentService:IBaseService<Department>
     {
-        public IEnumerable<Department> GetPaging(int limit,int pageIndex);
+        /// <summary>
+        /// LTNgoc
+        /// Phân trang,tìm kiếm
+        /// </summary>
+        /// <param name="limit">số bản ghi trên 1 trang</param>
+        /// <param name="pageIndex">số trang</param>
+        /// <returns></returns>
+        public IEnumerable<Department> GetPaging(int limit,int pageIndex,string searchText);
     }
 }

@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BadRequestError" xml:space="preserve">
+    <value>Dữ liệu đầu vào không hợp lệ.</value>
+  </data>
   <data name="ExceptionError" xml:space="preserve">
     <value>Có lỗi xảy ra vui lòng liên hệ MISA để được trợ giúp</value>
   </data>
@@ -125,5 +128,8 @@
   </data>
   <data name="Gender_male" xml:space="preserve">
     <value>Nam</value>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>Có lỗi xảy ra phía máy chủ,hãy khắc phục ngay.</value>
   </data>
 </root>

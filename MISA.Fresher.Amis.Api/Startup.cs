@@ -14,6 +14,7 @@ using MISA.Fresher.Amis.Infrastructure.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace MISA.Fresher.Amis.Api
@@ -34,9 +35,17 @@ namespace MISA.Fresher.Amis.Api
             services.AddControllers(options =>
             {
                 options.Filters.Add<MISAResponseExceptionFilter>();
+            }).AddJsonOptions(opt =>
+            {
+                opt.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+            }); 
+            //add cors
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod()
+                 .AllowAnyHeader());
             });
             //config DI;
-
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
             services.AddScoped<IDepartmentService, DepartmentService>();
@@ -61,7 +70,7 @@ namespace MISA.Fresher.Amis.Api
             }
 
             app.UseRouting();
-
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

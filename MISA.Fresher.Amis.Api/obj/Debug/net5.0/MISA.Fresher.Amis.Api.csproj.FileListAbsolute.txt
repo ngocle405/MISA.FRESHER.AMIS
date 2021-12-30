@@ -39,3 +39,47 @@ C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\
 C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\appsettings.Development.json
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\appsettings.json
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Api.exe
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Api.deps.json
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Api.runtimeconfig.json
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Api.runtimeconfig.dev.json
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Api.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\ref\MISA.Fresher.Amis.Api.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Api.pdb
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Dapper.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MySqlConnector.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Core.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Core.pdb
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\MISA.Fresher.Amis.Infrastructure.pdb
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.csproj.AssemblyReference.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.AssemblyInfoInputs.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.AssemblyInfo.cs
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.csproj.CoreCompileInputs.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\staticwebassets\MISA.Fresher.Amis.Api.StaticWebAssets.Manifest.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\staticwebassets\MISA.Fresher.Amis.Api.StaticWebAssets.xml
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\scopedcss\bundle\MISA.Fresher.Amis.Api.styles.css
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.RazorTargetAssemblyInfo.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.csproj.CopyComplete
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\ref\MISA.Fresher.Amis.Api.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.pdb
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\obj\Debug\net5.0\MISA.Fresher.Amis.Api.genruntimeconfig.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\EPPlus.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Api\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll

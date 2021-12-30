@@ -17,6 +17,34 @@ namespace MISA.Fresher.Amis.Core.Services
         {
             _baseRepository = baseRepository;
         }
+        /// <summary>
+        /// lấy all
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerable<MISAEntity> Get()
+        {
+            return _baseRepository.Get();
+        }
+        /// <summary>
+        /// lấy theo id
+        /// </summary>
+        /// <param name="entityId"></param>
+        /// <returns></returns>
+        public MISAEntity GetById(Guid entityId)
+        {
+
+            return _baseRepository.GetById(entityId);
+        }
+        /// <summary>
+        /// xóa
+        /// </summary>
+        /// <param name="entityId"></param>
+        /// <returns></returns>
+        public int Delete(Guid entityId)
+        {
+            return _baseRepository.Delete(entityId);
+        }
+
         public int? Insert(MISAEntity entity)
         {
             //validate chung cho BAse xử lý;
@@ -35,13 +63,25 @@ namespace MISA.Fresher.Amis.Core.Services
             return null;
         }
 
-        public int Update(MISAEntity entity,Guid entityId )
+        public int? Update(MISAEntity entity,Guid entityId )
         {
-            var entities = _baseRepository.Update(entityId,entity);
-            return entities;
+            //validate chung ;
+            var isValid = ValidateObject(entity);
+            //validate đặc thù cho từng đối tượng.-> 
+            if (isValid == true)
+            {
+                isValid = ValidateObjectCustom(entity);
+                //valid hợp lệ thì đi tiếp ->
+            }
+            if (isValid == true)//đã hợp lệ
+            {
+                var entities = _baseRepository.Update(entityId, entity);
+                return entities;
+            }
+            return null;
         }
         /// <summary>
-        /// CreateBy:lê thanh ngọc (17/12/2021)
+        /// CreateBy:LTNgoc (17/12/2021)
         /// thực hiện validate chung
         /// </summary>
         /// <param name="entity"></param>
@@ -50,7 +90,7 @@ namespace MISA.Fresher.Amis.Core.Services
         {
             // tạo 1 List chứa lỗi
             List<string> errorMsg = new List<string>();
-
+          
             //các thông tin bắt buộc nhập
             //1.kiểm tra tất cả các property của đối tượng.
             var properties = typeof(MISAEntity).GetProperties();
@@ -58,7 +98,7 @@ namespace MISA.Fresher.Amis.Core.Services
             {
                 //var propName = prop.Name;
                 //lấy giá trị
-                var propValue = prop.GetValue(entity);
+                var propValue = prop.GetValue(entity);//ktra gtri o day
                 //lấy tên 
                 var propNameDisplay = prop.Name;
                 
@@ -69,6 +109,8 @@ namespace MISA.Fresher.Amis.Core.Services
                 var propertyMaxLength = prop.GetCustomAttributes(typeof(MaxLength), true);
 
                 var propNotEmptys = prop.GetCustomAttributes(typeof(NotEmpty),true);//kiểm tra bên att notempty
+                //check ngày sinh không thể lớn hơn ngày hiện tại
+                var checkDate = prop.GetCustomAttributes(typeof(CheckDate), true);
 
                 // Lấy ra các propertyName
                 var propertyNames = prop.GetCustomAttributes(typeof(PropertyName), true);
@@ -86,7 +128,7 @@ namespace MISA.Fresher.Amis.Core.Services
                     //trim bỏ các khoảng cách 2 đầu
                     if (propValue == null || string.IsNullOrEmpty(propValue.ToString().Trim()))
                     {
-                        errorMsg.Add($"Thông tin {propNameDisplay} không được phép để trống.");
+                        errorMsg.Add($"{propNameDisplay} không được phép để trống.");
                         //throw new Exception($"Thông tin {propNameDisplay} không được phép để trống.");
                     }
                 }
@@ -96,10 +138,31 @@ namespace MISA.Fresher.Amis.Core.Services
                     //3. nếu thông tin bắt buộc nhập hiển thị cảnh báo hoặc đánh giấu trang thái không hợp lệ
                     if (propValue != null && ((string)propValue).Trim().Length > length)
                     {
-                        errorMsg.Add($"Thông tin {propNameDisplay} không được phép dài quá {length} kí tự.");
+                        errorMsg.Add($"{propNameDisplay} không được phép dài quá {length} kí tự.");
                         //throw new Exception($"Thông tin {propNameDisplay} không được phép dài quá {length} kí tự.");
                     }
                 }
+                if (checkDate.Length > 0)
+                {
+                    if (propValue != null)
+                    {
+                        //nếu ngày sinh lớn hơn hiện tại
+                        if ((DateTime)propValue > DateTime.Now)
+                        {
+                            errorMsg.Add($"{propNameDisplay} không thể lớn hơn ngày hiện tại.");
+                        }
+                    }
+                }
+                //var propertyDuplicate = prop.GetCustomAttributes(typeof(CheckDuplicate), true);
+
+                //if (propertyDuplicate.Length > 0)
+                //{
+                //    var checkDuplicate = _baseRepository.CheckDuplicateProperty(e, prop.Name, propValue);
+                //    if (checkDuplicate != null)
+                //    {
+                //        errorMsg.Add($"{propNameDisplay} <{propValue}> đã tồn tại trong hệ thống vui lòng kiểm tra lại.");
+                //    }
+                //}
             }
             // bắt lỗi sử dụng Exception Handling Middleware .
             if (errorMsg.Count > 0)
@@ -109,9 +172,19 @@ namespace MISA.Fresher.Amis.Core.Services
             return true;
 
         }
-        bool ValidateObjectCustom(MISAEntity entity)
+
+        /// <summary>
+        /// Người dùng có thể custom(tùy chính) lại validate nếu cần
+        /// </summary>
+        /// <param name="entity">Đối tượng</param>
+        /// <returns></returns>
+        /// LTNgoc(20/12/2021)
+        protected virtual bool ValidateObjectCustom(MISAEntity entity)
         {
             return true;
         }
+
+      
+      
     }
 }

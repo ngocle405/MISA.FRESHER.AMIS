@@ -13,3 +13,17 @@ C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj
 C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.Properties.Resources.resources
 C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.csproj.GenerateResource.cache
 C:\Users\Administrator\source\repos\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.Properties.ENResource.resources
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\MISA.Fresher.Amis.Core.deps.json
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\MISA.Fresher.Amis.Core.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\ref\MISA.Fresher.Amis.Core.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\bin\Debug\net5.0\MISA.Fresher.Amis.Core.pdb
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.csproj.AssemblyReference.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.Properties.Resources.resources
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.csproj.GenerateResource.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.AssemblyInfoInputs.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.AssemblyInfo.cs
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.csproj.CoreCompileInputs.cache
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\ref\MISA.Fresher.Amis.Core.dll
+D:\ASP.NET Core WEB API\MISA.Fresher.Amis\MISA.Fresher.Amis.Core\obj\Debug\net5.0\MISA.Fresher.Amis.Core.pdb

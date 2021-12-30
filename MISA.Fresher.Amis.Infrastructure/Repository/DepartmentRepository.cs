@@ -21,15 +21,15 @@ namespace MISA.Fresher.Amis.Infrastructure.Repository
         }
 
         //con gọi cha
-        public override IEnumerable<Department> Get()
-        {
-            using (MySqlConnection mySqlConnection = new MySqlConnection(_connectionStrings))
-            {
-                ////thực thi lấy dữ liệu db
-                var customers = mySqlConnection.Query<Department>(sql: $"SELECT * FROM {_className} limit 2");
-                return customers;
-            }
-        }
+        //public override IEnumerable<Department> Get()
+        //{
+        //    using (MySqlConnection mySqlConnection = new MySqlConnection(_connectionStrings))
+        //    {
+        //        ////thực thi lấy dữ liệu db
+        //        var customers = mySqlConnection.Query<Department>(sql: $"SELECT * FROM {_className} limit 2");
+        //        return customers;
+        //    }
+        //}
        
 
 

@@ -45,13 +45,52 @@ namespace MISA.Fresher.Amis.Infrastructure.Repository
 
                 return new
                 {
-                    TotalReord=totalRecord,
+                    totalRecord = totalRecord,
                     totalPage = TotalPage,
                     Data =entities
                 };
             }
         }
+        /// <summary>
+        /// tạo mã nhân viên mới
+        /// createBy:lê thanh Ngọc
+        /// </summary>
+        /// <returns>1 mã nhân viên mới</returns>
+        public string GetEmployeeNewCode()
+        {
+            using (MySqlConnection mySqlConnection = new MySqlConnection(_connectionStrings))
+            {
+                mySqlConnection.Open();
+                var sql = "Proc_GetNewEmployeeCode";
+                var rowAffect = mySqlConnection.QueryFirstOrDefault<string>(sql, commandType: System.Data.CommandType.StoredProcedure);
+                mySqlConnection.Close();
+                return rowAffect.ToString();
+            }
+        }
+        /// <summary>
+        /// createBy:lê thanh Ngọc
+        /// xóa nhiều
+        /// </summary>
+        /// <param name="listId">1 danh sách id cần xóa</param>
+        /// <returns>null</returns>
+        public int DeleteMultiRecord(List<string> listId)
+        {
+            using (MySqlConnection mySqlConnection = new MySqlConnection(_connectionStrings))
+            {
+                DynamicParameters parameters = new DynamicParameters();
+                //var ListEmployeeId = string.Empty;
+                ////foreach (string id in listId)
+                ////{
+                ////    ListEmployeeId += id + ",";
+                ////}
+                parameters.Add("@listId", string.Join(',', listId));
+                var sql = "Proc_DeleteMultipleRecordEmployee";
+                var rowAffect = mySqlConnection.Execute(sql,param:parameters, commandType: System.Data.CommandType.StoredProcedure);
+                var count = rowAffect;
+                return rowAffect;
+            }
+        }
 
-     
+
     }
 }

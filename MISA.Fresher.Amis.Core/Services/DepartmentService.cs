@@ -15,7 +15,7 @@ namespace MISA.Fresher.Amis.Core.Services
         {
         }
 
-        public IEnumerable<Department> GetPaging(int limit, int pageIndex)
+        public IEnumerable<Department> GetPaging(int limit, int pageIndex,string searchText)
         {
             return null;
         }

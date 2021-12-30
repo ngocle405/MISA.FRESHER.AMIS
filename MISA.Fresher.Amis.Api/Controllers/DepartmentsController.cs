@@ -13,21 +13,21 @@ namespace MISA.Fresher.Amis.Api.Controllers
     public class DepartmentsController : MISABaseController<Department>
     {
         IDepartmentService _departmentService;
-        IDepartmentRepository departmentRepository;
+      
         //IBaseRepository<Department> _baseRepository;
         public DepartmentsController(
             IBaseRepository<Department> baseRepository, //lấy của tk cha
            //  IDepartmentRepository departmentRepository,//lấy của tk con config DI
             IBaseService<Department> baseService ,//lấy của cha
            IDepartmentService departmentService //lấy của con
-            ):base(baseRepository, baseService)
+            ):base( baseService)
         {
             _departmentService = departmentService;
         }
         [HttpGet("Paging")]
-        public IActionResult Paging(int limit,int pageIndex) 
+        public IActionResult Paging(int limit,int pageIndex,string searchText) 
         {
-            return Ok(_departmentService.GetPaging(limit,pageIndex));
+            return Ok(_departmentService.GetPaging(limit,pageIndex,searchText));
         }
 
     }

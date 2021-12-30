@@ -9,16 +9,16 @@ using System.Threading.Tasks;
 
 namespace MISA.Fresher.Amis.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class MISABaseController<MISAEntity> : ControllerBase
     {
         //interface chỉ tạo được các
-        IBaseRepository<MISAEntity> _baseRepository ;
-        IBaseService<MISAEntity> _baseService;
-        public MISABaseController(IBaseRepository<MISAEntity> baseRepository, IBaseService<MISAEntity> baseService)
+        //  protected IBaseRepository<MISAEntity> _baseRepository ;
+        protected IBaseService<MISAEntity> _baseService;
+        public MISABaseController(IBaseService<MISAEntity> baseService)
         {
-            _baseRepository = baseRepository;
+            //_baseRepository = baseRepository;
             _baseService = baseService;
         }
         /// <summary>
@@ -28,8 +28,8 @@ namespace MISA.Fresher.Amis.Api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var entities = _baseRepository.Get();
-           
+            var entities = _baseService.Get();
+
             return Ok(entities);
         }
         /// <summary>
@@ -40,7 +40,7 @@ namespace MISA.Fresher.Amis.Api.Controllers
         [HttpGet("{entityId}")]
         public IActionResult GetById(Guid entityId)
         {
-            var entities=_baseRepository.GetById(entityId);
+            var entities = _baseService.GetById(entityId);
             return Ok(entities);
         }
         /// <summary>
@@ -50,28 +50,15 @@ namespace MISA.Fresher.Amis.Api.Controllers
         /// <param name="entity">1 object entity</param>
         /// <returns>1 obj đc thêm</returns>
         [HttpPost]
-        public IActionResult Post(MISAEntity entity)
+        public IActionResult Post([FromBody] MISAEntity entity)
         {
             var entities = _baseService.Insert(entity);
             return StatusCode(201, entities);
-            //try
-            //{
-            //}
-            //catch (Exception ex)
-            //{
 
-            //    var result = new
-            //    {
-            //        devMsg = ex.Message,
-            //        useMsg = "có lỗi xảy ra,vui lòng liên hệ dev:Lê thanh Ngọc để được hỗ trợ",
-            //        data = DBNull.Value,
-            //        moreInfo = ""
-            //    };
-            //    return StatusCode(500, result);
-            //}
         }
 
 
+        /// <summary>
         /// <summary>
         /// createBy:Lê thanh Ngọc (21/12/2021)
         /// Update dữ liệu
@@ -80,25 +67,12 @@ namespace MISA.Fresher.Amis.Api.Controllers
         /// <param name="entity">1 obj </param>
         /// <returns>obj được update</returns>
         [HttpPut("{entityId}")]
-        public IActionResult Put(Guid entityId,MISAEntity entity)
+        public IActionResult Put(Guid entityId, [FromBody] MISAEntity entity)
         {
-            try
-            {
-                var entities = _baseService.Update(entity,entityId);
-                return StatusCode(201, entities);
-            }
-            catch (Exception ex)
-            {
 
-                var result = new
-                {
-                    devMsg = ex.Message,
-                    useMsg = "có lỗi xảy ra,vui lòng liên hệ dev:Lê thanh Ngọc để được hỗ trợ",
-                    data = DBNull.Value,
-                    moreInfo = ""
-                };
-                return StatusCode(500, result);
-            }
+            var entities = _baseService.Update(entity, entityId);
+            return StatusCode(201, entities);
+
         }
 
         /// <summary>
@@ -111,23 +85,8 @@ namespace MISA.Fresher.Amis.Api.Controllers
         [HttpDelete("{entityId}")]
         public IActionResult Delete(Guid entityId)
         {
-            try
-            {
-                var entities = _baseRepository.Delete(entityId);
-                return StatusCode(201, entities);
-            }
-            catch (Exception ex)
-            {
-
-                var result = new
-                {
-                    devMsg = ex.Message,
-                    useMsg = "có lỗi xảy ra,vui lòng liên hệ dev:Lê thanh Ngọc để được hỗ trợ",
-                    data = DBNull.Value,
-                    moreInfo = ""
-                };
-                return StatusCode(500, result);
-            }
+            var entities = _baseService.Delete(entityId);
+            return StatusCode(201, entities);
         }
     }
 }

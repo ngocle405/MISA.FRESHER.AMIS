@@ -61,6 +61,15 @@ namespace MISA.Fresher.Amis.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dữ liệu đầu vào không hợp lệ..
+        /// </summary>
+        public static string BadRequestError {
+            get {
+                return ResourceManager.GetString("BadRequestError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Có lỗi xảy ra vui lòng liên hệ MISA để được trợ giúp.
         /// </summary>
         public static string ExceptionError {
@@ -84,6 +93,15 @@ namespace MISA.Fresher.Amis.Core.Properties {
         public static string Gender_male {
             get {
                 return ResourceManager.GetString("Gender_male", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Có lỗi xảy ra phía máy chủ,hãy khắc phục ngay..
+        /// </summary>
+        public static string ServerError {
+            get {
+                return ResourceManager.GetString("ServerError", resourceCulture);
             }
         }
     }
